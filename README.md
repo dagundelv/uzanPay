@@ -19,6 +19,9 @@
 
 7、支持同步及异步通知。
 
+# 在线演示
+http://pay.dedemao.com/demo.html
+
 # 如何接入
 
 [点击查看图文详细教程（建议阅读）](https://www.dedemao.com/uzan/guide_common.html "点击查看图文详细教程（建议阅读）")
@@ -37,5 +40,11 @@
 
 其它：店铺头像在有赞微小店APP->小店->店铺管理中修改。
 
+# 若对您有帮助，可以赞助并支持下作者哦，谢谢！
 
-在线体验：http://pay.dedemao.com/demo.html
+<p align="center">
+    <img src="https://www.dedemao.com/uploads/zan.jpg" width="500px">
+    <p align="center">联系邮箱：884358@qq.com</p>
+</p>
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>个人及时到账支付解决方案演示DEMO</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+
+<div class="jumbotron">
+        <h1>个人网站即时到账</h1>
+        <p>1、依赖于有赞云服务，信耐度高（不用担心跑路）</p>
+        <p>2、支持支付宝、微信、储蓄卡等多种支付方式。</p>
+        <p>3、钱款进入有赞商家店铺余额，商家在有赞店铺后台提现。</p>
+        <p>4、费率跟支付宝、微信官方一致，均为1%。</p>
+        <p>5、支持PC、移动设备。</p>
+        <p><a class="btn btn-primary btn-lg" href="https://www.dedemao.com/uzan/guide_common.html" role="button">点击查看图文详细教程</a></p>
+    </div>
+
+
+<h2>演示：</h2>
+<form id='uzansubmit' name='uzansubmit' action='https://pay.dedemao.com/api.php' method='post' target="_blank" class="form-horizontal">
+	<div class="form-group">
+		<label for="client_id" class="col-sm-2 control-label">client_id</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='client_id'  value=''/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="client_secret" class="col-sm-2 control-label">client_secret</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='client_secret'  value=''/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="kdt_id" class="col-sm-2 control-label">授权店铺id</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='kdt_id'  value=''/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="subject" class="col-sm-2 control-label">订单标题</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='subject'  value='支付测试'/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="return_url" class="col-sm-2 control-label">回调地址</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='return_url'  value='http://www.xxx.com/notify.php'/>
+			<p></p>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="total_fee" class="col-sm-2 control-label">支付金额</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='total_fee'  value='0.01'/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="out_trade_no" class="col-sm-2 control-label">订单号</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='out_trade_no'  value='123456'/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="pay_tip" class="col-sm-2 control-label">支付提示</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='pay_tip'  value='打开 支付宝或微信 扫码完成付款'/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="charset" class="col-sm-2 control-label">编码格式</label>
+		<div class="col-sm-10">
+			<input class="form-control" type='text' name='charset'  value='utf-8'/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="charset" class="col-sm-2 control-label"></label>
+		<div class="col-sm-10">
+			<input type='submit' class="btn btn-primary" value='提交'>
+		</div>
+	</div>
+		
+	</table>	
+</form>
+<br><br><br>
+<h3 align="center">若对您有帮助，可以赞助并支持下作者哦，谢谢！</h3>
+        <p align="center">
+            <img src="https://www.dedemao.com/uploads/zan.jpg" width="500px">
+        <p align="center">联系邮箱：884358@qq.com</p>
+        </p>
+
+</div>
+</body>
+</html>

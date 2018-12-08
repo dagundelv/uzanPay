@@ -3,6 +3,7 @@
  * 接收回调通知
  * 例如你将该文件放到网站根目录，那么在有赞云控制台的“消息推送配置”中填写推送网址为：http://你的网址/notify.php
  */
+error_reporting(1);
 /*配置开始*/
 $client_id = 'xxx';//应用的 client_id
 $client_secret = 'xxx';//应用的 client_secret

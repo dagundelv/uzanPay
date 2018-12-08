@@ -2,6 +2,7 @@
 /**
  * 发起支付
  */
+error_reporting(1);
 /*配置开始*/
 $client_id = 'xxx';        //应用的 client_id
 $client_secret = 'xxx';    //应用的 client_secret
